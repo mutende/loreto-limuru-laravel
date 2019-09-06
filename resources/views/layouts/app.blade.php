@@ -6,14 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         {{-- Bootstrap css --}}
-        <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
         <!-- Styles -->
-        <link href="{{ secure_asset('style.css') }}" rel="stylesheet">
-        <link href="{{ secure_asset('animate.css') }}" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
+        <link href="/animate.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 
         {{-- favicon --}}
-        <link rel="icon" href={{ secure_asset('images/fav-icon.png') }} type="image/x-icon"/>
+        <link rel="icon" href="/images/fav-icon.png" type="image/x-icon"/>
 
         {{-- dynamic title --}}
         <title>Loreto High School Limuru | @yield('title')</title>
@@ -83,8 +83,8 @@
     <footer class="text-center mb-5 mt-5 fixed-bottom">
             &copy;<script>document.write(new Date().getFullYear())</script> All Rights Reserved. Designed by <a href="https://www.zalegoinstitute.ac.ke" target="_blank">Zalego</a>
         </footer>
-        <script src={{ secure_asset('bootstrap/js/jquery-3.3.1.min.js') }}></script>
-        <script src= {{ secure_asset('bootstrap/js/popper.min.js') }}></script>
-        <script src= {{ secure_asset('bootstrap/js/bootstrap.min.js') }}></script>
+        <script src="/bootstrap/js/jquery-3.3.1.min.js"></script>
+        <script src="/bootstrap/js/popper.min.js"></script>
+        <script src= "/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
