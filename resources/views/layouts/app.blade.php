@@ -83,7 +83,7 @@
     <footer class="text-center mb-5 mt-5 fixed-bottom">
             &copy;<script>document.write(new Date().getFullYear())</script> All Rights Reserved. Designed by <a href="https://www.zalegoinstitute.ac.ke" target="_blank">Zalego</a>
         </footer>
-        <script src={{ asset('bootstrap/js/jquery-3.3.1.min.js') }}></script>
+        <script src={{ secure_asset('bootstrap/js/jquery-3.3.1.min.js') }}></script>
         <script src= {{ asset('bootstrap/js/popper.min.js') }}></script>
         <script src= {{ asset('bootstrap/js/bootstrap.min.js') }}></script>
 </body>
